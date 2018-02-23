@@ -1,7 +1,11 @@
+* {
+	margin:0px;
+	padding:0px;
+}
 .container {
 	width:970px;
 	margin:0px auto;
-	border:5px solid black;
+	/*border:5px solid black;*/
 }
 
 .globe {
@@ -15,20 +19,185 @@
 .internet {
 	color:black;
 	background-color: white;
-	margin-left:0px 0px;
+	margin:27px 0px 0px 0px;
 	vertical-align: top;
 	display: inline-block;
 	width:820px;
-	margin-bottom:0px;
 }
 
 .internet span {
-	color:blue;
+	color:#22659E;
 }
 
 .web {
-	background-color: blue;
+	background: linear-gradient(#24669F,#5283AD,#24669F);
 	margin-top:0px;
 	padding:10px;
+	color:#FEFEFE;
+}
+
+.main {
+	background:linear-gradient(#E3E3E3,#FFFFFF,#FFFFFF,#FFFFFF);
+}
+
+.col1 {
+	display: inline-block;
+	width:200px;
+}
+
+.col1 h3 {
+	margin:10px 0px 5px 5px;
+}
+
+.col1 p {
+	margin:0px 0px 10px 5px;
+}
+
+.blue {
+	color:#4C81AF;
+}
+
+.red {
+	color:#DA2D26;
+}
+
+.video {
+	background: linear-gradient(#6398C3,#306A9C); 
+	width:150px;
+	padding:5px 10px;
+	margin-left:10px;
 	color:white;
+	border-radius: 5px;
+}
+
+.resources {
+	background: linear-gradient(#EAAD56,#EF7300);
+	color:white;
+	padding:5px 8px;
+	width:150px;
+	border-radius: 5px;
+	margin:0px auto 20px 10px;
+}
+
+.ad {
+	background-image:url("images/ad_background.png");
+	text-align:center;
+	padding:20px 10px;
+	margin:20px 10px 10px 10px;
+	color:white;
+	height: 290px;
+}
+
+.ad img {
+	width:130px;
+	height:160px;
+}
+
+.ad button {
+	background:linear-gradient(#72CFDF,#02B6D3);
+	color:white;
+	border:none;
+	width:140px;
+	border-radius:5px;
+	padding:5px;
+
+}
+.col2 {
+	display: inline-block;
+	vertical-align: top;
+	width:700px;
+}
+
+.dns {
+	width:766px;
+}
+
+.dns label {
+	vertical-align: top;
+	overflow:auto;
+	display: inline-block;
+	margin:10px;
+	color:#4B7FAD;
+}
+
+.home {
+	width:18px;
+	height:18px;
+	display: inline-block;
+	vertical-align: top;
+}
+.phone {
+	display: inline-block;
+	margin-left: 460px;
+	text-align: center;
+}
+
+.phone p {
+	display: inline-block;
+	width:160px;
+	font-size:9pt;
+	vertical-align: top;
+}
+
+.phone p span {
+	color:#1EC6E0;
+	font-weight: bold;
+	font-size: 18pt;
+}
+.phone img {
+	width:40px;
+	height:40px;
+	margin:10px 0px;
+} 
+
+.col2 h2 {
+	color:#427AAB;
+	margin:5px 10px;
+}
+
+.server {
+	width:300px;
+	height: 100px;
+	margin:0px 150px 0px 250px;
+	z-index: -1;
+}
+
+.col2 p {
+	margin-left:10px;
+}
+
+ul {
+	margin: 5px 0px 5px 50px;
+}
+
+ol {
+	width:650px;
+	margin: 5px 0px 5px 50px;
+}
+
+.link {
+	text-decoration: none;
+	color:#2DABBD;
+}
+
+.big_3 {
+	width:740px;
+	border-width:3px 3px 0px 3px;
+	border-color: #427AAB;
+	border-style:solid;
+	margin-top:15px;
+}
+
+.big_3 img {
+	width:91px;
+	height:91px;
+	margin:10px 0px 0px 10px;
+	vertical-align: top;
+}
+
+.text {
+	display: inline-block;
+	padding:10px;
+	padding-top: 0px;
+	width:555px;
 }
